@@ -13,12 +13,18 @@ Then run: python search.py
 The search queries, result limit, time_range and repos to search for can be edited
 in search.py
 
-SEARCH_TIME_RANGE examples:
+<b>SEARCH_TIME_RANGE examples:</b>
+
     Last x minute(s), hour(s), day(s), month(s), year(s)
+    
     2012/08/12 00:00:00 To 2012/08/14 00:00:00
+    
     2012/08/12 12:00:00 AM To 2012/08/13 12:00:00 PM
 
-SEARCH_REPOS examples:
+<b>SEARCH_REPOS examples:</b>
+
     [] -> allowed repos for user
+    
     ['127.0.0.1:5504'] -> all local LogInspect repos
+    
     ['127.0.0.1:5504/default'] -> particular repos
